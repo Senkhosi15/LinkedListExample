@@ -1,11 +1,11 @@
 #include "StdAfx.h"
 #include <iostream>
-#include "MyList.h"
+#include "MyList.h" //
 
 using namespace std;
 
 void Init (List& L)
-{ L = NULL; } // L points to  nothing;} //
+{ L = NULL; } // L points to  nothing;}
 
 bool IsEmpty (List L)
 {return (L == NULL); } //
